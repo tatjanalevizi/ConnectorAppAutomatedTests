@@ -1,0 +1,16 @@
+<assembly name="50107 CPCAlldeviceTasks" test-framework="PS Test Runner" run-date="2023-05-11" run-time="11:20:30" total="1" passed="0" failed="1" skipped="0" time="15.3">
+  <collection name="CPCAlldeviceTasks" total="1" passed="0" failed="1" skipped="0" time="15.3" Skipped="0">
+    <test name="CPCAlldeviceTasks:TestGetUsedSparesList" method="TestGetUsedSparesList" time="16.464" result="Fail">
+      <failure>
+        <message>Assert.IsTrue failed. Rows not inserted</message>
+        <stack-trace>"Library Assert"(CodeUnit 130002).IsTrue line 3 - Library Assert by Microsoft
+CPCAlldeviceTasks(CodeUnit 50107).TestGetUsedSparesList line 15 - Alldevice Connector Automated Tests by Columbus Estonia
+"Test Runner - Mgt"(CodeUnit 130454).RunTests line 21 - Test Runner by Microsoft
+"Test Runner - Isol. Codeunit"(CodeUnit 130450).OnRun(Trigger) line 4 - Test Runner by Microsoft
+"Test Suite Mgt."(CodeUnit 130456).RunTests line 2 - Test Runner by Microsoft
+"Test Suite Mgt."(CodeUnit 130456).RunSelectedTests line 35 - Test Runner by Microsoft
+"Command Line Test Tool"(Page 130455)."RunSelectedTests - OnAction"(Trigger) line 7 - Test Runner by Microsoft</stack-trace>
+      </failure>
+    </test>
+  </collection>
+</assembly>

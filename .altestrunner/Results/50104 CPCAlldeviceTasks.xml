@@ -1,0 +1,5 @@
+<assembly name="50104 CPCAlldeviceTasks" test-framework="PS Test Runner" run-date="2023-05-12" run-time="16:31:31" total="1" passed="0" failed="1" skipped="0" time="10.836">
+  <collection name="CPCAlldeviceTasks" total="1" passed="0" failed="1" skipped="0" time="10.836" Skipped="0">
+    <test name="CPCAlldeviceTasks:TestGetUsedSparesList" method="TestGetUsedSparesList" time="25.11" result="Pass" />
+  </collection>
+</assembly>

@@ -1,0 +1,47 @@
+<assembly name="50100 CPCAlldeviceAPIManagementTests" test-framework="PS Test Runner" run-date="2023-05-05" run-time="11:48:34" total="1" passed="1" failed="0" skipped="0" time="1.113">
+  <collection name="CPCAlldeviceAPIManagementTests" total="1" passed="1" failed="0" skipped="0" time="1.113" Skipped="0">
+    <test name="CPCAlldeviceAPIManagementTests:TestGetRequestJsonWithAuthentication" method="TestGetRequestJsonWithAuthentication" time="0.317" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestDontGetRequestJsonWithAuthentication" method="TestDontGetRequestJsonWithAuthentication" time="4.097" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestGetJsonToken" method="TestGetJsonToken" time="0.006" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestDontGetJsonToken" method="TestDontGetJsonToken" time="0.01" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestDontSelectJsonToken" method="TestDontSelectJsonToken" time="0.007" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestGetListSpares" method="TestGetListSpares" time="0.39" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestGetListCategories" method="TestGetListCategories" time="0.233" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestGetListManufacturers" method="TestGetListManufacturers" time="0.23" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestGetListTasks" method="TestGetListTasks" time="0.246" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestDontGetList" method="TestDontGetList" time="1.357" result="Fail">
+      <failure>
+        <message>Assert.IsFalse failed. Status code is success</message>
+        <stack-trace>"Library Assert"(CodeUnit 130002).IsFalse line 3 - Library Assert by Microsoft
+CPCAlldeviceAPIManagementTests(CodeUnit 50100).TestDontGetList line 14 - Alldevice Connector Automated Tests by Columbus Estonia
+"Test Runner - Mgt"(CodeUnit 130454).RunTests line 21 - Test Runner by Microsoft
+"Test Runner - Isol. Codeunit"(CodeUnit 130450).OnRun(Trigger) line 4 - Test Runner by Microsoft
+"Test Suite Mgt."(CodeUnit 130456).RunTests line 2 - Test Runner by Microsoft
+"Test Suite Mgt."(CodeUnit 130456).RunSelectedTests line 35 - Test Runner by Microsoft
+"Command Line Test Tool"(Page 130455)."RunSelectedTests - OnAction"(Trigger) line 7 - Test Runner by Microsoft</stack-trace>
+      </failure>
+    </test>
+    <test name="CPCAlldeviceAPIManagementTests:TestPostRequestSpares" method="TestPostRequestSpares" time="3.997" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestPostRequestCategories" method="TestPostRequestCategories" time="1.327" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestPostRequestManufacturers" method="TestPostRequestManufacturers" time="1.157" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestDontPostRequest" method="TestDontPostRequest" time="0.3" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestDontGetListTasks" method="TestDontGetListTasks" time="1.803" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestDontGetListSpares" method="TestDontGetListSpares" time="0.174" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestDontGetListCategories" method="TestDontGetListCategories" time="141.18" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestDontGetListManufacturers" method="TestDontGetListManufacturers" time="58.753" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestDontGetRequestJsonWithAuthenticationSpares" method="TestDontGetRequestJsonWithAuthenticationSpares" time="4.943" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestAlldeviceAPISetupOpenPage" method="TestAlldeviceAPISetupOpenPage" time="0.09" result="Pass" />
+    <test name="CPCAlldeviceAPIManagementTests:TestSelectJsonToken" method="TestSelectJsonToken" time="0.797" result="Fail">
+      <failure>
+        <message>Could not find a token with path $.response.data</message>
+        <stack-trace>"CPC Alldevice API Management"(CodeUnit 79660).SelectJsonToken line 3 - Alldevice Connector by Columbus Estonia
+CPCAlldeviceAPIManagementTests(CodeUnit 50100).TestSelectJsonToken line 5 - Alldevice Connector Automated Tests by Columbus Estonia
+"Test Runner - Mgt"(CodeUnit 130454).RunTests line 21 - Test Runner by Microsoft
+"Test Runner - Isol. Codeunit"(CodeUnit 130450).OnRun(Trigger) line 4 - Test Runner by Microsoft
+"Test Suite Mgt."(CodeUnit 130456).RunTests line 2 - Test Runner by Microsoft
+"Test Suite Mgt."(CodeUnit 130456).RunSelectedTests line 35 - Test Runner by Microsoft
+"Command Line Test Tool"(Page 130455)."RunSelectedTests - OnAction"(Trigger) line 7 - Test Runner by Microsoft</stack-trace>
+      </failure>
+    </test>
+  </collection>
+</assembly>

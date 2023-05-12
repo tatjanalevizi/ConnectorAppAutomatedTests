@@ -1,0 +1,16 @@
+{
+    "containerResultPath":  "C:\\ProgramData\\BcContainerHelper\\Extensions\\bcdev\\my",
+    "launchConfigName":  "Your own server",
+    "securePassword":  "01000000d08c9ddf0115d1118c7a00c04fc297eb01000000ce082e3cc71b8141b876f11fafcaf9280000000002000000000010660000000100002000000020c25dbe8b05ce77a9e4f42db466e5461852fb61b20a53211f85e0ac375ac387000000000e8000000002000020000000c991f49ce850a7fc7056dda82a3b0e9025cd14faa9b434bc14a682ee52edd2212000000079683b4a87a7728319cecc94b685656b3c9a8e94877058cf253c82854469bdd84000000019f51bb99a880218aadd8208b93a2b3aeb847edf60f35ca1229d83b29843575056f252a346948672e2ad5c9adbf90fed393fb45887202e94830e53571911820b",
+    "userName":  "talevi",
+    "companyName":  "CRONUS International Ltd.",
+    "testSuiteName":  "",
+    "vmUserName":  "",
+    "vmSecurePassword":  "",
+    "remoteContainerName":  "",
+    "dockerHost":  "",
+    "newPSSessionOptions":  "",
+    "testRunnerServiceUrl":  "http://bcdev:7048/BC/ODataV4/TestRunner?company=CRONUS International Ltd.\u0026tenant=default",
+    "codeCoveragePath":  ".//.altestrunner//codecoverage.json",
+    "culture":  "en-US"
+}

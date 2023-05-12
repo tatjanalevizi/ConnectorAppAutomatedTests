@@ -1,0 +1,5 @@
+<assembly name="50101 CPCAlldeviceSparesTests" test-framework="PS Test Runner" run-date="2023-05-05" run-time="11:08:15" total="1" passed="1" failed="0" skipped="0" time="159.437">
+  <collection name="CPCAlldeviceSparesTests" total="1" passed="1" failed="0" skipped="0" time="159.437" Skipped="0">
+    <test name="CPCAlldeviceSparesTests:TestApiLogCreation" method="TestApiLogCreation" time="0" result="Skip" />
+  </collection>
+</assembly>
